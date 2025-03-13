@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(203, 248, 152);
+  margin: 0;
+  padding: 0;
+
+}
+
+.Container{
+  background-color: rgba(255, 255, 255, 0.74);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.74);
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+  border-radius: 20px;
+  margin: 1vh;
+
+  position: fixed;
+  width: 99%;
+  bottom: 0;
+  min-height: 10vh;
+  height: auto;
+
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colorbtn{
+  background-color: rgb(119, 119, 143);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.74);
+  color: white; 
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.heading{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;  
+  text-align: center;
+  text-shadow: 2px 2px 5px gray;
+}
